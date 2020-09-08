@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=boobies
+Description=Fun theme with bouncing boobies.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/boobies
+ScriptFile=/usr/share/plymouth/themes/boobies/boobies.script
