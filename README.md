@@ -1,29 +1,33 @@
 # Plymouth Boobies
-Boobies theme for plymouth based on [this GIF](https://icon-library.net/icon/loading-icon-animated-gif-2.html).
+Custom plymouth themes. Includes:
+- **boobies** based on [this GIF](https://icon-library.net/icon/loading-icon-animated-gif-2.html).
+![gif](boobies/boobies.gif)
+- **liquid** based on [this GIF](https://inspiration.design/posts/579294-liquid-preloader)
+![GIF](liquid/liquid.gif)
 
-![gif](https://icon-library.net//images/loading-icon-animated-gif/loading-icon-animated-gif-2.jpg)
 
 ## Installing
+### 1. Plymouth
+You need to have plymouth installed and set up - check that it works before proceeding.
+### 2. Theme
+*Replace `[theme name]` with the desired theme.**
 - archlinux:
 ```bash
-# add theme to plymouth dir
-sudo mkdir /usr/share/plymouth/themes/boobies
-sudo cp -r . /usr/share/plymouth/themes/boobies
+sudo cp -r [theme name] /usr/share/plymouth/themes/
 
 # check that theme exists
 sudo plymouth-set-default-theme -l
 
 # set theme as default
-sudo plymouth-set-default-theme -R boobies
+sudo plymouth-set-default-theme -R [theme name]
 ```
 - debian based distros:
 ```bash
 # add theme to plymouth dir
-sudo mkdir /usr/share/plymouth/themes/boobies
-sudo cp -r . /usr/share/plymouth/themes/boobies
+sudo cp -r [theme name] /usr/share/plymouth/themes/
 
 # install theme
-sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/boobies/boobies.plymouth 100
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/[theme name]/[theme name].plymouth 100
 
 # apply the theme (select the number of installed theme)
 sudo update-alternatives --config default.plymouth
