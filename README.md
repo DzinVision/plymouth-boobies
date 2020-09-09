@@ -1,8 +1,10 @@
 # Plymouth Boobies
 Custom plymouth themes. Includes:
 - **boobies** based on [this GIF](https://icon-library.net/icon/loading-icon-animated-gif-2.html).
+
 ![gif](boobies/boobies.gif)
-- **liquid** based on [this GIF](https://inspiration.design/posts/579294-liquid-preloader)
+- **liquid** based on [this GIF](https://inspiration.design/posts/579294-liquid-preloader).
+
 ![GIF](liquid/liquid.gif)
 
 
