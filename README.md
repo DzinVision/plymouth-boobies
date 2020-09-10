@@ -5,7 +5,9 @@ Custom plymouth themes. Includes:
 ![gif](boobies/boobies.gif)
 - **liquid** based on [this GIF](https://inspiration.design/posts/579294-liquid-preloader).
 
-![GIF](liquid/liquid.gif)
+- **pacman** based on [this GIF](https://inspiration.design/posts/610284-preloader-concept).
+
+![GIF](pacman/pacman.gif)
 
 
 ## Installing
