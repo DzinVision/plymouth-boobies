@@ -1,8 +1,8 @@
 [Plymouth Theme]
-Name=liquid
-Description=Liquid animation.
+Name=pacman
+Description=Pacman animation.
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/liquid
-ScriptFile=/usr/share/plymouth/themes/liquid/liquid.script
+ImageDir=/usr/share/plymouth/themes/pacman
+ScriptFile=/usr/share/plymouth/themes/pacman/pacman.script
