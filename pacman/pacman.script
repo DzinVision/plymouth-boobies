@@ -39,7 +39,7 @@ progress = 0;
 
 fun refresh_callback ()
   {
-    flyingman_sprite.SetImage(flyingman_image[Math.Int(progress) / 3 * 2 % 135]);
+    flyingman_sprite.SetImage(flyingman_image[Math.Int(progress) / 2 % 135]);
     progress++;
   }
 
